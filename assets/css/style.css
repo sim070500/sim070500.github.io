@@ -8,6 +8,7 @@
 
 /* TABLE OF CONTENT 
 *
+* - CSS BY MYSELF
 * - CUSTOM RESETS
     - Buttons
     - Forms
@@ -33,6 +34,36 @@
 */
 
 
+/* CSS BY MYSELF
+================================================== */
+#BriefCV {
+    list-style-type: disc;
+    /* Remove bullets */
+    /*padding: 0; [> Remove padding <]*/
+    /*margin: 0; [> Remove margins <]*/
+}
+
+.container-frame {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    background: #FFFFFF;
+    padding: 20px;
+    width: 1300px;
+    height: 500px;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.align-distribute {
+	text-align: justify;
+}
+
+#article-list {
+	font-size: 23px;
+}
 /* CUSTOM RESETS
 ================================================== */
 a {
@@ -915,6 +946,7 @@ body {
 /* SITEMAIN
 ================================================== */
 /* site-section */
+
 .site-section {
     padding: 100px 0 200px;
 }
