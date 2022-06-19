@@ -64,6 +64,22 @@
 #article-list {
 	font-size: 23px;
 }
+
+.knowledge {
+	font-size: 20px;
+}
+
+
+
+
+
+.frametitle {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid black;
+  margin: 150px;
+  padding: 10px;
+}
 /* CUSTOM RESETS
 ================================================== */
 a {
@@ -1111,7 +1127,7 @@ body {
 .portfolio-item a {
     bottom: 15px;
     color: #26272d;
-    padding: 5px 12px;
+    padding: 1px 2px;
     border: 1px solid #26272d;
     border-radius: 50px;
 }
