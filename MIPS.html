@@ -21,7 +21,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Favicon
     ================================================== -->
@@ -69,27 +69,18 @@
                                     class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
 
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                <li><a href="tumor_morphology.html">Tumor Morphology</a></li>
+                                <li><a href="Tumor_Morphology.html">Tumor Morphology</a></li>
                                 <li><a href="MIPS.html">Motility Induced Phase Seperation</a></li>
                                 <li><a href="Pattern_Formation.html">Pattern Formation</a></li>
                                 <li><a href="Chaotic_Motion.html">Chaotic Motion</a></li>
+                                <li><a href="Traffic_Model.html">Traffic Model</a></li>
                             </ul>
 
                         </li>
 
                         <li><a href="Publication.html">Publication</a></li>
 
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Book Blog<i
-                                    class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
 
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                <li><a href="JP_Books.html">Japanese Books</a></li>
-                                <li><a href="CH_Books.html">Chinese Books</a></li>
-                                <li><a href="WT_Books.html">Western Books</a></li>
-                                <li><a href="JA.html">Japanese Animate</a></li>
-                            </ul>
-
-                        </li>
                         <li><a href="Bridge.html">Bridge</a></li>
 
                     </ul>
@@ -106,18 +97,60 @@
                 <h1>Motility Induxed Phase Seperation</h1>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">Motility Induxed Phase Seperation</li>
+                    <li class="breadcrumb-item active">Motility Induced Phase Seperation</li>
                 </ol>
             </div><!-- /.hero-text -->
         </div><!-- /.hero-content -->
     </div><!-- /.hero -->
 
     <main id="main" class="site-main">
-        <div style="padding: 50px 0px;"></div>
-        <div class=" text-center">
-            <p style="font-size:300%; color: black"> <b>Under Construction</b></p>
-        </div>
-        <div style="padding: 50px 0px;"></div>
+
+        <section class="site-section subpage-site-section section-portfolio">
+            <div class="container">
+
+                <ul class="portfolio-sorting list-inline text-center">
+                    <li><a href="#" class="btn btn-gray active" data-group="all">All</a></li>
+                    <li><a href="#" class="btn btn-gray" data-group="fundamental">Fundametal Knowledge</a></li>
+                    <li><a href="#" class="btn btn-gray" data-group="paper">Interesting Paper</a></li>
+                    <li><a href="#" class="btn btn-gray" data-group="phenomenon<">Crucial Phenomenon</a></li>
+                </ul><!-- /.portfolio-sorting  -->
+
+                <div id="grid" class="row">
+                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["fundamental"]'>
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
+                            <h4 class="portfolio-item-title">Fluctuation Dissipation Theory</h4>
+                            <a href="MIPS/fundamental/Fluctuation.html"><i class="fa fa-arrow-right"
+                                    aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-item -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["fundamental"]'>
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
+                            <h4 class="portfolio-item-title">Langevin Equation</h4>
+                            <a href="MIPS/fundamental/Langevin.html"><i class="fa fa-arrow-right"
+                                    aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-item -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["fundamental"]'>
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
+                            <h4 class="portfolio-item-title">Ito Integration</h4>
+                            <a href="MIPS/fundamental/Ito.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div><!-- /.portfolio-item -->
+                    </div>
+
+
+                </div>
+                <div class="text-center">
+                    <a class="btn btn-gray" href="#" id="loadMore">Load More</a>
+                </div>
+
+            </div>
+        </section><!-- /.section-portfolio -->
+
 
 
 

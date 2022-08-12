@@ -21,7 +21,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Favicon
     ================================================== -->
@@ -55,7 +55,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="site-title"><span>EJ Blog</span>- Exploring in complex system</a>
+                    <a class="site-title" href="index.html"><span>EJ Blog</span>- Exploring in complex system</a>
 
                 </div><!-- /.navbar-header -->
 
@@ -74,23 +74,14 @@
                                 <li><a href="MIPS.html">Motility Induced Phase Seperation</a></li>
                                 <li><a href="Pattern_Formation.html">Pattern Formation</a></li>
                                 <li><a href="Chaotic_Motion.html">Chaotic Motion</a></li>
+                                <li><a href="Traffic_Model.html">Traffic Model</a></li>
                             </ul>
 
                         </li>
 
                         <li><a href="Publication.html">Publication</a></li>
 
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Book Blog<i
-                                    class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
 
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                <li><a href="JP_Books.html">Japanese Books</a></li>
-                                <li><a href="CH_Books.html">Chinese Books</a></li>
-                                <li><a href="WT_Books.html">Western Books</a></li>
-                                <li><a href="JA.html">Japanese Animate</a></li>
-                            </ul>
-
-                        </li>
                         <li><a href="Bridge.html">Bridge</a></li>
 
                     </ul>
@@ -105,7 +96,7 @@
     <div id="hero" class="hero overlay">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Reading makes a full man, meditation a profound man, discourse a clear man. ― Benjamin Franklin</h1>
+                <h1>Exploring In Complexity</h1>
             </div><!-- /.hero-text -->
         </div><!-- /.hero-content -->
     </div><!-- /.hero -->
@@ -113,50 +104,91 @@
     <!-- Paragraph 3 -->
     <main id="main" class="site-main">
 
-        <section class="site-section section-features">
+        <section class="site-section section-features" style="background-color: #FFFFFF">
+            <div class="text-center">
+                <h1 class="heading-separator">Who am I?</h1>
+                <p class="subheading-text">These are my experience and the way you can contact with me!</p>
+            </div>
+
+            <div style="padding: 5px 0px;"></div>
+
+            <div class="container container-frame">
+                <div class="row">
+                    <div class="col-sm-1"> </div>
+
+                    <div class="col-sm-2">
+                        <div style="padding: 20px 0px;"></div>
+                        <img src="assets/img/YCL.jpg" alt="test">
+                    </div>
+
+
+                    <div class="col-sm-1"> </div>
+
+                    <div class="col-sm-9 hidden-xas test">
+                        <div style="padding: 10px 0px;"></div>
+                        <div>
+                            <h1><b>Yi-Chieh Lai</b></h1>
+                        </div>
+
+                        <div style="padding: 5px 0px;"></div>
+
+                        <div>
+
+                            <p style="font-size:150%; color: black" class='align-distribute'>
+                                Hi! I am Yi-Chieh Lai, a biophysist. You can just call me EJ.
+                                Welcome to my blog.
+                                In this blog, I will show some interesting physics in biological systems basing on
+                                numerical simulations.
+                                Also, I will post some physics topics which are fascinating to me.
+                            </p>
+                            <p style="font-size:150%; color: black" class='align-distribute'>
+                                Besides, I also like to read books. Recently, I love Japanese literature.
+                                Therefore, I make some books lists to recommand some books, and relating reviews are
+                                also posted.
+                                Moreover, my hobby is playing bridge. I will show some rules in playing bridge. This
+                                rule is set up by the bridge club in National Tsing Hua University.
+                            </p>
+                            <p style="font-size:150%; color: black" class='align-distribute'>
+                                If you are intersting in biophysics and physics in complex system, I show some
+                                researches
+                                I conduct recently.
+                                You can feel free to browse it. Have fun!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.section-features -->
+
+        <section class="site-section section-features" style="background-color: gainsboro">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-7">
                         <h2>Research Focus</h2>
-                        <p>
+                        <p class='align-distribute'>
                             My research focus on the <b> <u>pattern formation in active systems</u></b>.
                             The main difference between active systems and traditional passive systems are the <b>
                                 <u>motility </u></b>
                             of particles in systems.
-                            In recent years, lots of researches show that motility is a key factor in<b> <u> generating
-                                    clusters</u></b>.
-                            An active system can form clusters even though all particles repel each other in the system.
-                            Such kind of phase transition is so called <b> <u>"Motility induce phase
-                                    seperation"</u></b>, which is a
-                            kind of density phase transition.
-                            Another interesting topic in active system is <b> <u>alignment</u></b> phase transition.
-                            Many researches found that particles tend to align with each other in biosystems, such as
-                            E-coli systems.
-                            To generate this, <b> <u>iostropic symmetry breaking</u></b> is neccessary.
-                            Therefore, some microscopic alignment is introduced.
-                            However, the <b> <u>minimize work</u></b> to spontaneously generate density and alignment
-                            phase transition
-                            is still an open question.
+                            The vedio shown on the right hand side is the simulation of an active system.
+                            All particles propel it self with constant velocity. The dirction of the proportional speed
+                            is influenced by a random noise.
+                            Also, all particles repel each other in this system.
+                            Interesingly, some clusters forms in this system, which is impossible when particles don't
+                            propel theselves.
+                            Such kind of phase transition is so called
+                            <b> <u>"Motility induce phase seperation"</u></b>.
+                            I am intersting in using the <b> <u>minimize work</u></b> to generate this phase transition,
+                            and the interaction between clusters.
                         </p>
-                        <p>
-                            Another interesting topic I am curious about is <b> <u>statistical properties</u></b> in
-                            chaotic system.
-                            One crucial property of chaotic system is its <b> <u>undeterministic</u></b>.
-                            We can not determine the future of a chaotic system by current information.
-                            However, the dynamics in chaotic system is <b> <u>deterministic</u></b>.
-                            Futhermore, the <b> <u>dimension</u></b> of a chaotic system can be only larger than three,
-                            which is
-                            different from the undeterministic in statistical mechanics.
-                            What is the difference between them? Is it possible to handle chaotic motion by statistical
-                            mechanics like theory?
-                            This might be anthor research I tend to conduct.
-
+                        <p class='align-distribute'>
+                            Other interesting topics I am curious about are <b> <u>statistical properties</u></b> in
+                            chaotic system and pattern formations.
                         </p>
 
                     </div>
                     <div class="col-sm-4 hidden-xs">
-                        <div style="padding: 70px 0px;">
-
+                        <div style="padding: 60px 0px;">
                         </div>
                         <video width="480" height="320" controls autoplay>
                             <source src="assets/video/simulation_small.mp4" type="video/mp4">
@@ -171,7 +203,7 @@
         </section><!-- /.section-map-feature -->
 
         <!-- Paragraph 3 -->
-        <section class="site-section section-portfolio" style="background-color: gainsboro">
+        <section class="site-section section-portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="heading-separator">Recent Research Topic</h2>
@@ -187,7 +219,7 @@
                             <h3>Tumor Morphology</h3>
                         </div>
                         <div class="portfolio-item">
-                            <img src="assets/img/tumor_surface.png" class="img-res" alt="">
+                            <img src="assets/img/Tumor_surface.png" class="img-res" alt="">
                             <h4 class="portfolio-item-title">Tumor Morphology</h4>
                             <a href="Tumor_Morphology.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                         </div><!-- /.portfolio-item -->
@@ -242,7 +274,7 @@
         </section><!-- /.section-portfolio -->
 
         <!-- Paragraph 3 -->
-        <section class="site-section section-portfolio">
+        <section class="site-section section-portfolio" style="background-color: gainsboro">
             <div class="container">
                 <div class="text-center">
                     <h2 class="heading-separator">Previous Research Topic</h2>
@@ -268,7 +300,7 @@
         </section><!-- /.section-portfolio -->
 
         <!-- Paragraph 3 -->
-        <section class="site-section section-portfolio" style="background-color: gainsboro">
+        <section class="site-section section-portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="heading-separator">Hobbis</h2>
