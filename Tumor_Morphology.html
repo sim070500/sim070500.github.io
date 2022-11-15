@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Traffic Model | EJ Blog</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+        type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <header id="masthead" class="site-header site-header-white">
+        <nav id="primary-navigation" class="site-navigation">
+            <div class="container">
+
+
+
+                <div class="navbar-header">
+
+                    <a class="site-title"><span>EJ Blog</span>- Exploring in complex system</a>
+
+                </div><!-- /.navbar-header -->
+
+                <div class="collapse navbar-collapse" id="agency-navbar-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+
+                        <li><a href="index.html">Home</a></li>
+
+                        <li><a href="profile.html">Profile</a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Researches<i
+                                    class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
+
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li><a href="Traffic_Model.html">Traffic Model</a></li>
+                                <li><a href="Tumor_Morphology.html">Tumor Morphology</a></li>
+                                <!--<li><a href="MIPS.html">Motility Induced Phase Seperation</a></li>-->
+
+                            </ul>
+
+                        </li>
+
+                        <li><a href="Publication.html">Publication</a></li>
+
+
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav><!-- /.site-navigation -->
+    </header><!-- /#mastheaed -->
+
+    <div id="hero" class="hero overlay subpage-hero portfolio-hero-tumor">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Tumor Morphology</h1>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Tumor Morphology</li>
+                </ol>
+            </div><!-- /.hero-text -->
+        </div><!-- /.hero-content -->
+    </div><!-- /.hero -->
+
+    <main id="main" class="site-main">
+        <section class="site-section subpage-site-section section-portfolio" style="background-color: #FFFFFF">
+            <div class="container">
+                <ul class="portfolio-sorting list-inline text-center">
+                    <li><a href="Tumor_Morphology.html" class="btn btn-gray" data-group="introduction">Introduction</a>
+                    </li>
+                    <li><a href="Simulation_Tumor.html" class="btn btn-gray" data-group="codeidentical">Simulation
+                            Process</a></li>
+                </ul><!-- /.portfolio-sorting  -->
+
+                <div class="row" data-groups='["introduction"]'>
+                    <div style="padding: 10px 0px;"></div>
+                    <div class="text-center">
+                        <h2 class="heading-separator">Introduction</h2>
+                        <p class="subheading-text">How to illustrate the evolution of a avascular tumor? How does it
+                            transform to a malignant tumors.
+                        </p>
+                    </div>
+                    <div style="padding: 10px 0px;"></div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+
+                            <span class="tab"></span> It is estimated that the new cancer cases and the deaths in 2022
+                            are 1.9 million new cancer cases diagnosed and 609,360 cancer deaths in the United States
+                            (data from American cancer society). The high mortality rate triggers scientists attention.
+                            For oncologists, they develop new radiation therapy and target therapy to cure patients.
+                            However, some therapies have been proven invalid. For instance, in the previous envisage,
+                            tumors obtain nutrients by angiogenic. Thus, it is predicted that an anti-angiogenic therapy
+                            provides an opportunity to eliminate cancer cells. However, it has been observed that an
+                            anti-angiogenic therapy does not eliminate cancer cells but promote tumor fragmentation and
+                            invasion [1, 2]. It seems that the growth of a tumor is much more complicated than we
+                            thought. Therefore, to better understand the surface instability of tumors, mathematical
+                            models from
+                            different perspectives, such as pressure-driven cell motion, and reaction-diffusion models
+                            are developed. In our research, we build a phenomenological model to understand how tumor
+                            growth and develope invasive patterns.
+                        </p>
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+
+                            <span class="tab"></span>To build a phenomenological model to illustrate the behavior of
+                            tumor cells, first of all, we must list all critical factors that we expect to influence
+                            tumor growth. By denoting the tumor cell density and nutrient density as $n$ and $u$, we
+                            know the death rate of tumor cells is proportional to its density, say $\gamma n$. Also, we
+                            know tumor consumes nutrient to growth. Typically, in the previous model, most of scientists
+                            assume the growth rate is linearly proportional to nutrient density and tumor cell density
+                            $n\times u$. However, it has been shown in EMT6/Ro mouse mammary tumor cells that
+                            the increase of the cell proliferation rate slows down as the nutrient density increases due
+                            to limited consumption and metabolism, and eventually the proliferation rate saturates to
+                            a constant rate [3, 4]. Therefore, we assume the growth rate to be a saturating function
+                            when nutrient density is high, and use a shifted hyperbolic tangent to approximate it. That
+                            is,
+                            $$
+                            \text{growth rate} = a\cdot n\cdot A(u),
+                            $$
+                            where
+                            $$
+                            A(u) = \tanh\left(\frac{u-\bar{u}}{W}\right) - A_0.
+                            $$
+                            The coefficient $A_0$ adjusts the function since we expect a zero growth rate when there is
+                            no nutrient. The constants $\bar{u}$ and $W$ further characterize the threshold and
+                            sensitivity for tumor growth. Since the consumption rate of nutrient is proportional to
+                            tumors growth rate, te consumption rate is assumed to be $b \cdot n\cdot A(u)$, where $b$ is
+                            the proportionality coefficient.
+                        </p>
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+
+                            <span class="tab"></span>Beside, according to previous research, the motion of tumors cells
+                            is know to be driven by pressure gradient induced by the inner necrosis core and the outer
+                            cell free space[1, 5]. The velocity of tumor cells obey Darcy's law $\vec{v} =
+                            -\mu\nabla P$, where $\mu$ is te mobility of tumors and $P$ is the pressure of cells. By
+                            considering the solid properties of tumor cells, the relation between pressure and density
+                            should be $dP = Kdn/n$, where $K$ is the bulk modulus of tumor cells. Thus, the velocity can
+                            be rewritten as $\vec{v} = - (\mu K/n)\nabla n$, and the flux is therefore $\nabla \cdot
+                            (n\vec{v}) = \mu K \nabla^2 n$ by assuming a homogeneous bulk modulus. The form is similar
+                            to the diffusion $D_n \nabla^2 n$. In fact, if we calculated the estimated $\mu K$, the
+                            value ranges from $1.03 \times 10^{-8}$ to $1.9 \times 10^{-8} cm^2/s$. [5, 6-9]In
+                            general,
+                            the diffusion coefficient of tumors ranges from $10^{-9$}$ to $10^{-7} cm^2/s$ depending on
+                            the type of tumors [10-12]. In our research, we apply the diffusion to illustrate the
+                            motion of tumor cells. Since the motion of nutrient particles is brownian, the motion of
+                            nutrient particles is also diffusive.
+                        </p>
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+
+                            <span class="tab"></span>Based on the above mentioned properties, the equation of motion of
+                            tumor cells and nutrient can be write as
+                            $$
+                            \frac{\partial n}{\partial t} = D_n \nabla^2 n + anA(u) - \gamma n - Mn(n-\alpha)(n-\beta)
+                            \\
+                            \frac{\partial u}{\partial t} = D_u \nabla^2 u - bnA(u),
+                            $$
+                            where the final term in tumor evolution equation describe the difficulty of generating a
+                            tumor from a vanishing state $0$ to existing state $\beta$. The coefficient $M$ illustrate
+                            the difficulty and the coefficient $\alpha$ illustrate the difference between the
+                            instability of the two state. For simplicity, we assume $\alpha = \beta/2$. With these
+                            equations, we can simulate the evolution of avascular tumor cells by assuming a fixed
+                            nutrient boundary condition at infinity. That is, $u(\pm\infty) = C_0$. Though it is general
+                            to simulate a three dimensional tumor, if we focus on a symmetrical tumor, it is not
+                            necessary. By focusing on a small part on the surface of a symmetrical tumor, the system
+                            becomes a planer interface. By assuming the growth direction at $x$ axis, since the
+                            remaining axis are isotropic, we can only focus on one axis, say $y$. Moreover, since we
+                            focus on how a benign tumor with a regular shape transform into an irregular malignant
+                            tumor, a flat surface which is homogeneous along $y$ direction is expected. Thus, we can
+                            simulate the system only on $x$ axis. The simulation is far more complicated that the
+                            traffic mode, I remain the description to the page of <a style="color:blue"
+                                href="Traffic_Model_code_bando.html">Simulation Process</a>. The simulation results are
+                            shown in Fig. 1. Apparently, the tumor will growth initially until the nutrient is not
+                            sufficient enough to maintain the tumor growth. Then, the tumor will expend to persue more
+                            nutrients and start to die out in the nutrient-deficient region, which is generated because
+                            nutrient does not have enough time to diffuse and outer tumors also consume a lot of
+                            nutrient. Eventually, the tumors generate two surface with central necrosis core.
+                        </p>
+
+
+
+
+                        <figure class="text-center" id="myfigure">
+                            <img src="./assets/img/all_evolve.svg" width="800" height="400" />
+                            <figcaption>Fig. 1 - The evolution of tumor cells and nutrient density for $(C_0, a, \gamma,
+                                M, D_u, \bar{u}) = (8, 0.5, 0.2, 2.1, 10, 2)$</figcaption>
+                        </figure>
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+                            <span class="tab"></span>
+                        </p>
+
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+                            <span class="tab"></span>To investigate the instability of tumor surface, assuming the flat
+                            steady solution as $n_0$ and $u_0$, we give a small perturbation $n_1$ and $u_1$ with wave
+                            number $k$ to the flat surface. The instability of tumor surface will be determined by the
+                            largest eigenvalue of perturbation. To obtain the eigenvalue and its corresponding
+                            eigenfunction, we simulation the perturbation $n_1$ and $u_1$ until they are shape
+                            preserving. The final shape preserving eigenfunction is shown in Fig. 2.
+                        </p>
+                        <figure class="text-center" id="myfigure">
+                            <img src="./assets/img/ploteigen.svg" width="800" height="400" />
+                            <figcaption>Fig. 2 - Shape preserving eigenfunction. The coefficients used in the simulation
+                                are $(C_0, a, \gamma,
+                                M, D_u, \bar{u}) = (6, 0.5, 0.2, 2.1, 10, 2)$ for $k=0.0042$</figcaption>
+                        </figure>
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+                            <span class="tab"></span>
+                        </p>
+
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+                            <span class="tab"></span>By giving different wave number $k$ to the system, we can obtain
+                            the dispersion relation and find the stability of tumor surface. For positive growth rates,
+                            tumor surface is unstable and applied perturbation will grow up, and tumor will start to
+                            split. Fig. 3 shows the dispersion curve.Interestingly, we can find that all growth rates
+                            are negative when the boundary nutrient becomes larger.
+                        </p>
+                        <figure class="text-center" id="myfigure">
+                            <img src="./assets/img/dispersion.svg" width="800" height="400" />
+                            <figcaption>Fig. 3 - Dispersion relation for various boundary nutrient densities ranging
+                                from $C_0 = 6$ to $C_0 = 9$. The coefficients used in the simulation
+                                are $(a, \gamma,
+                                M, D_u, \bar{u}) = (0.5, 0.2, 2.1, 10, 2)$</figcaption>
+                        </figure>
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+                            <span class="tab"></span>
+                        </p>
+
+
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+                            <span class="tab"></span>
+                            To understand the reason, we need to know that there are <b><u>two mechanism that drive the
+                                    instability of the system.</u></b>two mechanism that drive the instability of the
+                            system. First, the term $Mn(n-\alpha)(n-\beta)$ illustrate the boundary crossing from no
+                            tumor to existing tumor. The common place occurring this condition is on the surface, which
+                            implies that this term illustrate the surface energy of the system. Actually, such
+                            description is commonly used in many solid system. The <b><u>surface tension</u></b> induced
+                            by this effect always smoothen the system especially when the curvature is large, which can
+                            be observe when the wave number of perturbation is large. In contrast, the peaks and troughs
+                            on the perturbation will live in different nutrient environment. Peaks live in nutritious
+                            environment while troughs live in nutrient-deficient region, which means the <b><u>growth
+                                    rates are different along peaks and troughs</u></b>. This effect will enlarge the
+                            perturbations. The competition between two effects determine the instability of tumor
+                            surface. However, since the growth rate saturates in nutritious region, when the nutrient is
+                            high, the effect of growth rate difference decreases, and the system becomes surface tension
+                            dominant. Therefore, the system remains flat. The phase for different boundary nutrient
+                            values and growth coefficients $a$ are shown in Fig. 4.
+                        </p>
+
+                        <figure class="text-center" id="myfigure">
+                            <img src="./assets/img/phase.svg" width="800" height="400" />
+                            <figcaption>Fig. 3 - Phase diagram for the avascular solid tumor growth. Red squares
+                                represent the phase of dying out of tumor cells. Blue circles and green triangles are
+                                breakups of tumors and steady moving tumor fronts, respectively. The coefficients used
+                                in the simulation are $(\gamma, M, D_u, \bar{u}) = (0.2, 2.1, 10, 2)$</figcaption>
+                        </figure>
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+                            <span class="tab"></span>
+                        </p>
+
+
+                        <p style="font-size:180%; color: black; line-height:130%" class="align-distribute">
+                            <span class="tab"></span>
+                            This is an interesting result since it implies that if we plan to inhibit tumor invasion, we
+                            need to provide them more nutrients. However, it is worth to note that tumors also grow
+                            faster when they live in a nutritious environment. When they growth up, they might start to
+                            extend vascular. Since our research assume the tumor is avascular, further investigations
+                            are necessary to show the importance of nutritious environment.
+
+                        </p>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- /.section-features -->
+
+        <section class="site-section section-features" style="background-color: gainsboro">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="heading-separator">Further Reading</h2>
+                </div>
+                <div class="text-left">
+
+                    <ol>
+                        <li> V. Cristini, H. B. Frieboes, R. Gatenby, S. Caserta, M. Ferrari, and J. Sinek, Morphologic
+                            instability and cancer invasion, Clinical Cancer Research 11, 6772 (2005). <a
+                                href="https://aacrjournals.org/clincancerres/article/11/19/6772/190352/Morphologic-Instability-and-Cancer-Invasion">(weblink)</a>
+                        </li>
+                        <li> P. S. Steeg, Angiogenesis inhibitors: motivators of metastasis?, Nature Medicine 9, 822
+                            (2003). <a href="https://www.nature.com/articles/nm0703-822">(weblink)</a>
+                        </li>
+
+                        <li> J. J. Casciari, S. V. Sotirchos, and R. M. Sutherland, Variations in tumor cell growth
+                            rates and
+                            metabolism with oxygen concentration, glucose concentration, and extracellular ph, Journal
+                            of Cellular Physiology 151, 386 (1992). <a
+                                href="https://onlinelibrary.wiley.com/doi/10.1002/jcp.1041510220">(weblink)</a>
+                        </li>
+
+                        <li> J. P. Freyer and R. M. Sutherland, Regulation of Growth Saturation and Development of
+                            Necrosis in EMT6/Ro Multicellular Spheroids by the Glucose and Oxygen Supply1, Cancer
+                            Research 46, 3504 (1986). <a
+                                href="https://aacrjournals.org/cancerres/article/46/7/3504/490920/Regulation-of-Growth-Saturation-and-Development-of">(weblink)</a>
+                        </li>
+
+                        <li> H. B. Frieboes, X. Zheng, C.-H. Sun, B. Tromberg, R. Gatenby, and V. Cristini, An
+                            integrated
+                            computational/experimental model of tumor invasion, Cancer research 66, 1597—1604 (2006). <a
+                                href="https://aacrjournals.org/cancerres/article/66/3/1597/526861/An-Integrated-Computational-Experimental-Model-of">(weblink)</a>
+                        </li>
+
+                        <li> Y. Hirakawa, T. Yoshihara, M. Kamiya, I. Mimura, D. Fujikura, T. Masuda, R. Kikuchi,
+                            I. Takahashi, Y. Urano, S. Tobita, and M. Nangaku, Quantitating intracellular oxygen tension
+                            in vivo by phosphorescence lifetime measurement, Scientific Reports 5, 17838 (2015). <a
+                                href="https://www.nature.com/articles/srep17838">(weblink)</a>
+                        </li>
+                        <li> M. T. Islam, S. Tang, C. Liverani, S. Saha, E. Tasciotti, and R. Righetti, Non-invasive
+                            imaging
+                            of young’s modulus and poisson’s ratio in cancers in vivo, Scientific Reports 10, 7266
+                            (2020). <a href="https://www.nature.com/articles/s41598-020-64162-6">(weblink)</a>
+                        </li>
+                        <li> D. C. Stewart, A. Rubiano, K. Dyson, and C. S. Simmons, Mechanical characterization of
+                            human brain tumors from patients and comparison to potential surgical phantoms, PLOS
+                            ONE 12, 1 (2017). <a
+                                href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177561">(weblink)</a>
+                        </li>
+                        <li> D. Chauvet, M. Imbault, L. Capelle, C. Demene, M. Mossad, C. Karachi, A.-L. Boch, J.-L.
+                            Gennisson, and M. Tanter, In vivo measurement of brain tumor elasticity using intraoperative
+                            shear wave elastography., Ultraschall in der Medizin (Stuttgart, Germany : 1980) 37, 584
+                            (2016). <a
+                                href="https://www.thieme-connect.de/products/ejournals/abstract/10.1055/s-0034-1399152">(weblink)</a>
+                        </li>
+
+                        <li> K. R. Swanson, E. C. Alvord Jr, and J. Murray, A quantitative model for differential
+                            motility
+                            of gliomas in grey and white matter, Cell proliferation 33, 317 (2000). <a
+                                href="https://onlinelibrary.wiley.com/doi/abs/10.1046/j.1365-2184.2000.00177.x">(weblink)</a>
+                        </li>
+                        <li>S. Miyamoto, K. Atsuyama, K. Ekino, and T. Shin, Estimating the diffusion coeﬀicients
+                            of sugars using diffusion experiments in agar-gel and computer simulations, Chemical and
+                            Pharmaceutical Bulletin 66, 632 (2018). <a
+                                href="https://www.jstage.jst.go.jp/article/cpb/66/6/66_c18-00071/_article">(weblink)</a>
+                        </li>
+                        <li> M. Martín-Landrove, Reaction-diffusion models for glioma tumor growth, arXiv preprint
+                            arXiv:1707.09409 (2017). <a
+                                href="https://arxiv.org/ftp/arxiv/papers/1707/1707.09409.pdf">(weblink)</a>
+                        </li>
+
+                    </ol>
+                </div>
+
+
+
+            </div>
+        </section><!-- /.section-features -->
+
+
+
+
+
+
+
+
+
+    </main><!-- /#main -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <a class="site-title"><span>EJ </span> - A Complex System Researcher</a>
+                    <p>I focus on nonlinear dynamics and pattern formation in live systems</p>
+                    <p>I love reading Japanese books, and Japanese animate. Some reviews relating to my favorite books
+                        are in progress </p>
+                </div>
+                <div class="col-lg-offset-4 col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-0 col-xs-6 ">
+                    <h3>Keep in touch</h3>
+                    <ul class="list-unstyled contact-links">
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a
+                                href="mailto:sim108022503@gapp.nthu.edu.tw">sim108022503@gapp.nthu.edu.tw</a></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a
+                                href="mailto:yichieh_lai@mx.nthu.edu.tw">yichieh_lai@mx.nthu.edu.tw</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-xs"></div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8">
+                        <div class="social-links">
+                            <a class="github-bg" href="https://github.com/sim070500" target="_blank"><i
+                                    class="fa fa-github"></i></a>
+                        </div><!-- /.social-links -->
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="text-right">
+                            <p>&copy; AgencyPerfect</p>
+                            <p>All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.copyright -->
+    </footer><!-- /#footer -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/jquery.shuffle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
